@@ -54,5 +54,5 @@ Tips for Success✅
 - Use the GeeksforGeeks learning resources for assistance.
 - Participate in forums and discussions to clear doubts.
 - Stay consistent—160 days of coding will transform your skills.
-- 
+
 The 160 Days Geeks for Geeks Challenge is a structured learning initiative designed to help individuals improve their programming, problem-solving, and coding skills by consistently practicing on the GeeksforGeeks platform. 
