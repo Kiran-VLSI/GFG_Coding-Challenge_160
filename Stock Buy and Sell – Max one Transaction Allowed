@@ -1,0 +1,10 @@
+class Solution:
+    def maximumProfit(self, prices):
+   
+        min_price = float('inf')  
+        maximum_profit = 0     
+        for price in prices:
+            min_price = min(min_price, price)
+            profit = price - min_price
+            maximum_profit = max(maximum_profit, profit)
+        return maximum_profit
