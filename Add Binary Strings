@@ -1,0 +1,8 @@
+class Solution:
+    def addBinary(self, s1, s2):
+        s1 = s1.lstrip('0')
+        s2 = s2.lstrip('0')
+        num1 = int(s1, 2) if s1 else 0
+        num2 = int(s2, 2) if s2 else 0
+        result = num1 + num2
+        return bin(result)[2:]
