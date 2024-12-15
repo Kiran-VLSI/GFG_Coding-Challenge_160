@@ -1,0 +1,9 @@
+class Solution:
+    def search(self, pat, txt):
+        result = []
+        pat_len = len(pat)
+        txt_len = len(txt)
+        for i in range(txt_len - pat_len + 1):
+            if txt[i:i + pat_len] == pat:
+                result.append(i)
+        return result
